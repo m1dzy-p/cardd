@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sosials</title>
+    <title>Price</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,15 +15,23 @@
   </head>
   <body>
     <header class="header">
-      <a href="index.html">
-        <button class="button-header">Назад на головну сторінку</button>
-      </a>
-      <a href="price.html">
-        <button class="button-header">Комішки прайс</button>
-      </a>
-      <a href="socials.html">
-        <button class="button-header">Мої інші соцмережі</button>
-      </a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="header-buttons">
+        <a href="index.html">
+          <button class="button-header">Назад на головну сторінку</button>
+        </a>
+        <a href="price.html">
+          <button class="button-header">Малюнки прайс</button>
+        </a>
+        <a href="socials.html">
+          <button class="button-header">Мої інші соцмережі</button>
+        </a>
+      </div>
     </header>
     <section class="price-page">
       <div class="wrapper-price">
@@ -33,18 +41,18 @@
           <p class="main-page-descr">Вартість 350 гривень</p>
         </div>
         <div class="price-img-container">
-          <img src="img/yasia.png" alt="yasia" class="price-portrait-pic" /><img
-            src="img/sashka.png"
-            alt="sashka"
+          <img
+            src="img/yasia.webp"
+            alt="yasia"
             class="price-portrait-pic"
-          />
+          /><img src="img/sashka.png" alt="sashka" class="price-portrait-pic" />
         </div>
       </div>
     </section>
     <section class="price-page1">
       <div class="wrapper-price-1">
         <div class="price-img-container1">
-          <img src="img/marsel.png" alt="marsel" class="price-big-pic" />
+          <img src="img/marsel.webp" alt="marsel" class="price-big-pic" />
         </div>
         <div class="price-text-container-big-pic">
           <h2 class="main-page-title">Зображення по пояс</h2>
@@ -60,12 +68,15 @@
       <div class="wrapper-price-2">
         <div class="price-text-container-stic">
           <h2 class="main-page-title">Стікерпак</h2>
-          <p class="main-page-descr">П'ять стікерів з вашим персонажем.</p>
+          <p class="main-page-descr">
+            П'ять стікерів з вашим персонажем. Можуть бути стікери для друку чи
+            для телеграму. (Кожен наступний стікер +50грн)
+          </p>
           <p class="main-page-descr">Вартість 400 гривень</p>
         </div>
         <div class="price-img-container2">
           <div>
-            <img src="img/sticerpack.png" alt="sticker" class="price-stic" />
+            <img src="img/sticerpack.webp" alt="sticker" class="price-stic" />
           </div>
         </div>
       </div>
