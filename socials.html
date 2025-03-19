@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sosials</title>
+    <title>Socials</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,18 +14,24 @@
     <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body>
-     <header class="header">
-      <a href="index.html">
-        <button class="button-header">
-          Назад на головну сторінку
-        </button>
-      </a>
-      <a href="price.html">
-        <button class="button-header">Комішки прайс</button>
-      </a>
-      <a href="socials.html">
-        <button class="button-header">Мої інші соцмережі</button>
-      </a>
+    <header class="header">
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <div class="header-buttons">
+        <a href="index.html">
+          <button class="button-header">Назад на головну сторінку</button>
+        </a>
+        <a href="price.html">
+          <button class="button-header">Малюнки прайс</button>
+        </a>
+        <a href="socials.html">
+          <button class="button-header">Мої інші соцмережі</button>
+        </a>
+      </div>
     </header>
      <section class="main-page">
       <div class="wrapper">
@@ -50,5 +56,6 @@
             <img class="sign"
             src="img/signature.png" alt="signature">
       </div>
+    </section>
   </body>
 </html>
